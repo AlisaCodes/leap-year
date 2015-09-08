@@ -16,7 +16,10 @@ $(document).ready(function() {
     $(".year").text(year);
     if (!result) {
       $(".not").text("not");
+    } else {
+      $(".not").text("");
     }
+
 
     $("#result").show();
     event.preventDefault();
